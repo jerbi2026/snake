@@ -1,0 +1,234 @@
+/*int verif_manger_grand()
+{
+
+    if(tete->x == grand_manga.a && tete->y==grand_manga.b)
+        return 1;
+}
+*/
+
+
+/*void generer_grand_fruit()
+{
+   srand(time(NULL));
+    do
+    {
+        grand_manga.a = rand() % 22  + 1;
+        grand_manga.b=rand()% 27+1;
+    }while(test(grand_manga.a,grand_manga.b)==1);
+}*/
+
+
+
+/*int tofeha_kbira(int hist)
+{
+    int ok=0;
+    char jeu;
+    generer_grand_fruit();
+    while(ok==0)
+    {
+        affiche_game();
+        if(jeu!='x')
+        {
+            do
+            {
+                fflush(stdin);
+                fflush(stdout);
+                deplacement_auto(hist);
+                ok=verif_perd();
+                if(ok==1)
+                {
+                    score=0;
+                    afficher_game_over();
+                    break;
+                }
+                if(verif_manger_grand()==1)
+                {
+                    tete=grand_snake_auto(hist);
+                    //generer_alea();
+                    score=score+50;
+                    grand_manga.a=1000;
+                    grand_manga.b=1000;
+                    system("cls");
+                    fflush(stdin);
+                    fflush(stdout);
+                    affiche_game();
+                    long double i;
+                    for(i=0; i<=(10900000); i++);
+
+                    break;
+                }
+                system("cls");
+                fflush(stdin);
+                fflush(stdout);
+                affiche_game();
+                long double i;
+                for(i=0; i<=(10900000); i++);
+
+
+
+
+
+            }while(!kbhit());
+        }
+
+        if(ok!=1)
+        {
+            jeu=getch();
+            if(jeu=='z' && hist!=2)
+            {
+                fflush(stdin);
+                fflush(stdout);
+                deplacement_haut();
+                hist=1;
+
+                ok=verif_perd();
+                if(ok==1)
+                {
+                    score=0;
+                    afficher_game_over();
+                    break;
+                }
+                 if(verif_manger_grand()==1)
+                {
+                    tete=grand_snake_z();
+                    //generer_alea();
+                    score=score+50;
+                    grand_manga.a=1000;
+                    grand_manga.b=1000;
+                    break;
+
+                }
+                long double i;
+                for(i=0; i<=(10900000); i++);
+                system("cls");
+                fflush(stdin);
+                fflush(stdout);
+
+
+
+
+
+            }
+            else
+                if(jeu=='s' && hist!=1 )
+                {
+                    fflush(stdin);
+                    fflush(stdout);
+                    deplacement_bas();
+
+                    hist=2;
+
+                    ok=verif_perd();
+                    if(ok==1)
+                    {
+                        score=0;
+                        afficher_game_over();
+                        break;
+                    }
+                     if(verif_manger_grand()==1)
+                        {
+                        tete=grand_snake_s();
+                        //generer_alea();
+                        score=score+50;
+                        grand_manga.a=1000;
+                        grand_manga.b=1000;
+                        break;
+
+                    }
+                    long double i;
+                    for(i=0; i<=(10900000); i++);
+                    system("cls");
+                    fflush(stdin);
+                    fflush(stdout);
+
+
+                }
+                else
+                    if(jeu=='q' && hist!=0)
+                    {
+                        fflush(stdin);
+                        fflush(stdout);
+                        deplacement_gauche();
+
+                        hist=3;
+
+                        ok=verif_perd();
+                        if(ok==1)
+                        {
+                            score=0;
+                            afficher_game_over();
+                            break;
+                        }
+                         if(verif_manger_grand()==1)
+                         {
+                            tete=grand_snake_q();
+                            //generer_alea();
+                            score=score+50;
+                            grand_manga.a=1000;
+                            grand_manga.b=1000;
+                            break;
+
+                        }
+                        long double i;
+                        for(i=0; i<=(10900000); i++);
+                        system("cls");
+                        fflush(stdin);
+                        fflush(stdout);
+
+                    }
+                    else
+                        if(jeu=='d' && hist!=3)
+                        {
+
+                            fflush(stdin);
+                            fflush(stdout);
+                            deplacement_droite();
+
+                            hist=0;
+
+                            ok=verif_perd();
+                            if(ok==1)
+                            {
+                                score=0;
+                                afficher_game_over();
+                                break;
+                            }
+                            if(verif_manger_grand()==1)
+                            {
+                                tete=grand_snake_d();
+                                //generer_alea();
+                                score=score+50;
+                                grand_manga.a=1000;
+                                grand_manga.b=1000;
+                                break;
+
+                            }
+                            long double i;
+                            for(i=0; i<=(10900000); i++);
+                            system("cls");
+                            fflush(stdin);
+                            fflush(stdout);
+
+                        }
+                        else
+                            if((jeu!='z' && jeu!='s' && jeu!='q' && jeu!='d')|| (jeu=='d' && hist==3)|| (jeu=='q' && hist==0)|| (jeu=='s' && hist==1)|| (jeu=='z' && hist==2))
+                            {
+                                fflush(stdin);
+                                fflush(stdout);
+                                long double i;
+                                for(i=0; i<=(10900000); i++);
+                                system("cls");
+                                fflush(stdin);
+                                fflush(stdout);
+
+                            }
+
+        }
+
+
+
+    }
+    return score;
+}
+
+*/

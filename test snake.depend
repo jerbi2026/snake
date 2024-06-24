@@ -1,0 +1,51 @@
+# depslib dependency file v1.0
+1680403133 source:c:\users\jerbi\desktop\test snake\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<mmsystem.h>
+	<time.h>
+	<unistd.h>
+	<conio.h>
+
+1680475368 source:c:\users\jerbi\documents\1 bi\semestre 2\programmation c\projet 2eme semestre\jeu de snake\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<mmsystem.h>
+	<time.h>
+	<unistd.h>
+	<conio.h>
+
+1681101996 source:c:\users\jerbi\documents\1 bi\des projets\jeu de snake\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<mmsystem.h>
+	<time.h>
+	<unistd.h>
+	<conio.h>
+
+1681661511 source:c:\users\jerbi\documents\1ère année business intelligence ihec carthage\des projets\jeu de snake\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<mmsystem.h>
+	<time.h>
+	<unistd.h>
+	<conio.h>
+
+1681661511 source:c:\users\jerbi\documents\ihec carthage business intelligence\1ère année business intelligence ihec carthage\des projets\jeu de snake\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<windows.h>
+	<mmsystem.h>
+	<time.h>
+	<unistd.h>
+	<conio.h>
+
